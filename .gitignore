@@ -1,0 +1,4 @@
+venv/*
+src/BGA_Scrape.egg-info/*
+.vscode/*
+*.pyc
