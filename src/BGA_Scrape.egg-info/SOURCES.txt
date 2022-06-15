@@ -1,0 +1,6 @@
+setup.py
+src/BGA_Scrape.egg-info/PKG-INFO
+src/BGA_Scrape.egg-info/SOURCES.txt
+src/BGA_Scrape.egg-info/dependency_links.txt
+src/BGA_Scrape.egg-info/requires.txt
+src/BGA_Scrape.egg-info/top_level.txt
