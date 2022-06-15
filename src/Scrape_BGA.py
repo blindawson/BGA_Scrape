@@ -7,6 +7,8 @@ import time
 import os
 import pandas as pd
 
+
+# TODO Add class 
 service = webdriver.chrome.service.Service(ChromeDriverManager().install())
 browser = webdriver.Chrome(service=service)
 
@@ -24,6 +26,7 @@ browser = webdriver.Chrome(service=service)
 # soup.select('#gamelist_inner > tr:nth-child(1) > td:nth-child(1) > a > span.smalltext')
 
 browser.get("https://boardgamearena.com/gamestats?player=84034013")
+# TODO Need to figure out how to log in
 time.sleep(20)
 
 # see_more_link = browser.find_element_by_css_selector('#see_more_tables')
