@@ -11,7 +11,8 @@ setup(
         "bs4",
         "selenium",
         "webdriver_manager",
+        "pandas",
     ],
-    extras_require={"dev": ["pytest", "black"]},
+    extras_require={"dev": ["pytest", "black", "ipykernel"]},
     python_requires=">=3.9",
 )
